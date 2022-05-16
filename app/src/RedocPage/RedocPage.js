@@ -54,6 +54,7 @@ class RedocPage extends Component {
             options={{
               nativeScrollbars: true,
               scrollYOffset: 60,
+              showConsole : true,
               theme: { colors: { primary: { main: window._env_.THEME_COLOR } } },
             }}
           />
